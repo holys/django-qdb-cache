@@ -1,1 +1,1 @@
-from redis_cache.cache import RedisCache
+from qdb_cache.cache import QdbCache
