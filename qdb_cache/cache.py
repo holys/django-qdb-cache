@@ -190,7 +190,7 @@ class CacheClass(BaseCache):
                 if added:
                     client.expire(key, timeout)
                 return added
-            return client.setex(key, value, timeout)
+            return client.setex(key, timeout, value)
         else:
             return False
 

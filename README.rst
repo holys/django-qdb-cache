@@ -2,7 +2,7 @@
 QDB Django Cache Backend
 ==========================
 
-A simple QDB cache backend for Django based on `django-redis-cache`.
+A simple QDB cache backend for Django based on `django-redis-cache` v0.10.0.
 
 
 Notice
